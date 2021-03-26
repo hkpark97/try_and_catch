@@ -1,0 +1,47 @@
+body {
+    overflow: hidden;
+    margin: 0 !important;
+}
+
+#allPage {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(36, 35, 35);
+    height: 668px;
+}
+
+#footer {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: small;
+    color: rgb(151, 228, 196);
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+#content {
+    margin: 0px !important;
+    min-width: 980px;
+}
+
+#instruction {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 40px;
+}
+
+#game {
+    display: inline-block;
+    width: 655px;
+}
+
+#button {
+    margin: 10px !important;
+    width: 120px;
+}
+
+#buttonDiv {
+    margin-top: 60px;
+}
+
