@@ -56,24 +56,25 @@ function resetScore() {
 
 // Reset speed of bird
 function resetSpeed() {
-   newSpeed = speed;
-   then = Date.now();
-}
+    newSpeed = speed;
+    then = Date.now();
+ }
 
-
-// Event listeners 
-function pickBird(e) {
-    var x = e.pageX - canLeft;
-    var y = e.pageY - canTop;
-
-    if (y > bird.y && y < bird.y + 600 && x > bird.x && x < 980) 
-    {
-        score++;
-        reset();
-        newSpeed = newSpeed / speedFactor;
-        then = Date.now();
-    }
-}
+ 
+ // Event listeners 
+ function pickBird(e) {
+     var x = e.pageX - canLeft;
+     var y = e.pageY - canTop;
+ 
+     if (y > bird.y && y < bird.y + 600 && x > bird.x && x < 980) 
+     {
+         score++;
+         reset();
+         newSpeed = newSpeed / speedFactor;
+         then = Date.now();
+     }
+ }
+ 
 
 // Draw everything
 var render = function () {
